@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 64px 52px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.lsn{
+    list-style: none;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+.mr-15{
+  margin-right: 15px;
+}
+
+.date{
+  font-size: 15pt;
+}
+
+.month{
+  font-size: 8pt;
+}

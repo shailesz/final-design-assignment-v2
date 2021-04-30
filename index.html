@@ -1,17 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
     <title>YOUNIVERSE</title>
-</head>
-<body>
-    <div class="header">
-
+  </head>
+  <body>
+    <div class="header clearfix">
+      <div class="logo fl">
+        <img src="./images/logo.png" alt="youniverse-logo" />
+      </div>
+      <div class="header-items fr clearfix">
+        <img
+          class="search-header-item fl"
+          src="./images/icons/icon-search.png"
+          alt="search-icon"
+        />
+        <div class="cart-header-items fl clearfix">
+          <img
+            class="cart-icon fl"
+            src="./images/icons/icon-cart.png"
+            alt="search-icon"
+          />
+          <span class="cart-details fl">00 <sup>ITEMS</sup></span>
+          <img
+            class="hamburger-menu fl"
+            src="./images/icons/icon-hamburger-menu.png"
+            alt="hamburger-icon"
+          />
+        </div>
+      </div>
     </div>
-    
-    <div class="featured-content"></div>
-    <div class="navbar"></div>
-</body>
+
+    <div class="featured-content">
+      <div id="pentagon-left">
+        <div class="pentagon-left-arrow arrow right"></div>
+      </div>
+      <div id="pentagon-right">
+        <div class="pentagon-right-arrow arrow left"></div>
+      </div>
+      <div class="featured-heading clearfix">
+        <div class="featured-title fl">Featured Products</div>
+        <div class="featured-details-button fr clearfix">
+          <div class="stacked-button-background fl">
+            More <b>Details</b>
+            <div class="stacked-button-foreground fl">
+              <span class="stacked-button-foreground-arrow arrow right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="featured-content-properties clearfix">
+        <div class="featured-content-properties-child fl clearfix">
+          <div class="featured-content-properties-child-icon fl">
+            <img src="./images/icons/icon-couch.png" alt="couch-icon" />
+          </div>
+          <div class="featured-content-properties-child-headings fl">
+            <div class="featured-content-properties-child-main-heading">
+              Davis Furniture
+            </div>
+            <div class="featured-content-properties-child-sub-heading">
+              Leather Collection 2015
+            </div>
+          </div>
+        </div>
+        <div class="featured-content-properties-child fl clearfix">
+          <div class="featured-content-properties-child-icon fl">
+            <img src="./images/icons/icon-price-tag.png" alt="price-tag-icon" />
+          </div>
+          <div class="featured-content-properties-child-headings fl">
+            <div class="featured-content-properties-child-main-heading">
+              Starting Price:
+            </div>
+            <div class="featured-content-properties-child-sub-heading">
+              $399.00
+            </div>
+          </div>
+        </div>
+        <div class="featured-content-properties-child fl clearfix">
+          <div class="featured-content-properties-child-icon fl">
+            <img src="./images/icons/icon-palette.png" alt="palette-icon" />
+          </div>
+          <div class="featured-content-properties-child-headings fl">
+            <div class="featured-content-properties-child-main-heading">
+              Color Alternatives:
+            </div>
+            <div class="featured-content-properties-child-sub-heading">
+              Brown, Black, White
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <ul class="navbar-items-list lsn">
+        <li>HOME</li>
+        <li>ABOUT US</li>
+        <li>OUR TEAM</li>
+        <li>PORTFOLIO</li>
+        <li>OUR BLOG</li>
+        <li>OUR PRODUCTS</li>
+        <li>LATEST COLLECTIONS</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="featured-products clearfix">
+        <div class="featured-product-child fl">
+          <div class="pattern-image"></div>
+          <div class="featured-product-child-heading">SOFAS</div>
+          <div id="featured-product-button" class="featured-details-button">
+            <div class="stacked-button-background fl">
+              More <b>Details</b>
+              <div class="stacked-button-foreground fl">
+                <span
+                  class="stacked-button-foreground-arrow arrow right"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-product-child fl">
+          <div class="pattern-image"></div>
+          <div class="featured-product-child-heading">ARMCHAIRS</div>
+          <div id="featured-product-button" class="featured-details-button">
+            <div class="stacked-button-background fl">
+              More <b>Details</b>
+              <div class="stacked-button-foreground fl">
+                <span
+                  class="stacked-button-foreground-arrow arrow right"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-product-child fl">
+          <div class="pattern-image"></div>
+          <div class="featured-product-child-heading">SINGLE BEDS</div>
+          <div id="featured-product-button" class="featured-details-button">
+            <div class="stacked-button-background fl">
+              More <b>Details</b>
+              <div class="stacked-button-foreground fl">
+                <span
+                  class="stacked-button-foreground-arrow arrow right"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-products-pagination">
+        <hr />
+        <div class="pagination-buttons clearfix">
+          <div class="left-button fl"></div>
+          <div class="right-button fl"></div>
+        </div>
+      </div>
+
+      <div class="latest-furniture">
+        <div class="latest-furniture-heading">
+          <span class="latest-furniture-heading-text">LATEST FURNITURE</span>
+          <hr />
+        </div>
+
+        <div class="latest-furniture-cards clearfix">
+          <div class="latest-furniture-cards-child fl clearfix">
+            <div class="latest-furniture-cards-child-promo fl">PROMO</div>
+            <div class="latest-furniture-cards-child-container">
+              <div class="latest-furniture-cards-child-heading">
+                DEVON'S COLLECTION
+              </div>
+              <div class="latest-furniture-cards-child-sub-heading">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+              <div class="latest-furniture-cards-child-price">$459.99</div>
+            </div>
+
+            <div class="latest-furniture-cards-child-cart-button">
+              <span
+                class="latest-furniture-cards-child-cart-button-icon"
+              ></span>
+              ADD TO CART
+            </div>
+          </div>
+
+          <div class="latest-furniture-cards-child fl clearfix">
+            <div class="latest-furniture-cards-child-container">
+              <div class="latest-furniture-cards-child-heading">
+                90' OLD FURNITURE
+              </div>
+              <div class="latest-furniture-cards-child-sub-heading">
+                Pellentesque habitant morbi tristique senectus et.
+              </div>
+              <div class="latest-furniture-cards-child-price">$899.00</div>
+            </div>
+
+            <div class="latest-furniture-cards-child-cart-button">
+              <span
+                class="latest-furniture-cards-child-cart-button-icon"
+              ></span>
+              ADD TO CART
+            </div>
+          </div>
+
+          <div class="latest-furniture-cards-child fl clearfix">
+            <div class="latest-furniture-cards-child-promo promo-new fl">
+              NEW
+            </div>
+            <div class="latest-furniture-cards-child-container">
+              <div class="latest-furniture-cards-child-heading">
+                GET READY COLLECTION
+              </div>
+              <div class="latest-furniture-cards-child-sub-heading">
+                Nulla id quam elementum ligulau suscipit iaculis. Quisque.
+              </div>
+              <div class="latest-furniture-cards-child-price">$250.99</div>
+            </div>
+            <div class="latest-furniture-cards-child-cart-button">
+              <span
+                class="latest-furniture-cards-child-cart-button-icon"
+              ></span>
+              ADD TO CART
+            </div>
+          </div>
+
+          <div class="latest-furniture-cards-child fl clearfix">
+            <div class="latest-furniture-cards-child-container">
+              <div class="latest-furniture-cards-child-heading">
+                JUST WHITE COLLECTION
+              </div>
+              <div class="latest-furniture-cards-child-sub-heading">
+                Donec blandit orci in felis sollici tudin pellentesque.
+              </div>
+              <div class="latest-furniture-cards-child-price">$459.99</div>
+            </div>
+            <div class="latest-furniture-cards-child-cart-button">
+              <span
+                class="latest-furniture-cards-child-cart-button-icon"
+              ></span>
+              ADD TO CART
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="choose-youniverse clearfix">
+        <div class="choose-youniverse-container fr">
+          <div class="choose-youniverse-heading">
+            WHY CHOOSE YOUNIVERSE?
+            <hr />
+          </div>
+          <div class="choose-youniverse-text">
+            The reason most people do not recognize an opportunity when they
+            meet it is because it usually goes around wearing overalls and
+            looking like Hard Work.
+          </div>
+          <div class="choose-youniverse-buttons">
+            <div class="choose-youniverse-button mb-15">
+              AWESOME WORK
+              <div class="arrow-box"></div>
+            </div>
+            <div class="choose-youniverse-button">
+              NICE & CREATIVE DESIGN
+              <div class="arrow-box"></div>
+            </div>
+          </div>
+          <div class="choose-youniverse-text">
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Proin feugiat massa vel erat ullamcorper
+            porta. Aliquam dictum imperdiet ante, ut lobortis tortor posuere
+            vel.
+          </div>
+          <div class="choose-youniverse-buttons">
+            <div class="choose-youniverse-button">
+              PLENTY OF PAGES
+              <div class="arrow-box"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-posts">
+        <div class="latest-posts-container">
+          <div class="latest-furniture-heading">
+            <span class="latest-furniture-heading-text">LATEST POSTS</span>
+            <hr />
+          </div>
+          <div class="latest-post-cards clearfix">
+            <div class="latest-posts-cards-child fl">
+              <div class="image-holder">
+                <span class="image-holder-hover-icon">+</span>
+              </div>
+              <div class="information-holder clearfix">
+                <div class="date-holder fl">
+                  <div class="date">19</div>
+                  <div class="month">SEP</div>
+                </div>
+                <div class="details-holder fl">
+                  <div class="details-heading">OUTDOOR FURNITURE</div>
+                  <div class="post-metadata clearfix">
+                    <div class="metadata-author fl">
+                      by <span class="author">Janet456</span>
+                    </div>
+                    <div class="metadata-category fl">
+                      in <span class="category">Outdoor</span>
+                    </div>
+                    <div class="metadata-comments fl">
+                      <span class="comments">4 comments</span>
+                    </div>
+                  </div>
+                  <div class="post-description">
+                    Proin et tempus eros. Aliquam erat voilutui pat. Praesent
+                    vulputate in mi at.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="latest-posts-cards-child fl">
+              <div class="image-holder">
+                <span class="image-holder-hover-icon">+</span>
+              </div>
+              <div class="information-holder clearfix">
+                <div class="date-holder fl">
+                  <div class="date">18</div>
+                  <div class="month">SEP</div>
+                </div>
+                <div class="details-holder fl">
+                  <div class="details-heading">GIOCONDA COLLECTION</div>
+                  <div class="post-metadata clearfix">
+                    <div class="metadata-author fl">
+                      by <span class="author">Meredith3</span>
+                    </div>
+                    <div class="metadata-category fl">
+                      in <span class="category">Outdoor</span>
+                    </div>
+                    <div class="metadata-comments fl">
+                      <span class="comments">0 comments</span>
+                    </div>
+                  </div>
+                  <div class="post-description">
+                    Suspendisse maximus erat sodales, dictum leo eu, aliquet
+                    velit. Nunc commodo.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="latest-posts-cards-child fl">
+              <div class="image-holder">
+                <span class="image-holder-hover-icon">+</span>
+              </div>
+              <div class="information-holder clearfix">
+                <div class="date-holder fl">
+                  <div class="date">17</div>
+                  <div class="month">SEP</div>
+                </div>
+                <div class="details-holder fl">
+                  <div class="details-heading">WHITNEY COLLECTION</div>
+                  <div class="post-metadata clearfix">
+                    <div class="metadata-author fl">
+                      by <span class="author">Mark456</span>
+                    </div>
+                    <div class="metadata-category fl">
+                      in <span class="category">Outdoor</span>
+                    </div>
+                    <div class="metadata-comments fl">
+                      <span class="comments">10 comments</span>
+                    </div>
+                  </div>
+                  <div class="post-description">
+                    Quisque sapien quam, porta at tincidunt et vitae, luctus id
+                    eros. Duis sed quam.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="discounts clearfix">
+        <div class="discounts-container fr">
+          <div class="discount-container-heading">
+            GET OUR DISCOUNTS
+            <hr />
+          </div>
+          <div class="discount-container-body">
+            He who would learn to fly one day must first learn to stand and walk
+            and run and climb and dance; one cannot fly into flying.
+          </div>
+
+          <div class="discount-input-fields clearfix">
+            <input
+              class="input-discount fl mr-15"
+              type="text"
+              placeholder="YOUR NAME"
+            />
+            <input
+              class="input-discount fl"
+              type="text"
+              placeholder="YOUR E-MAIL"
+            />
+          </div>
+
+          <div class="discount-button clearfix">
+            <div class="stacked-button-background fl">
+              SUBSCRIBE
+              <div class="stacked-button-foreground fl">
+                <span
+                  class="stacked-button-foreground-arrow arrow right"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="newest-collections">
+        <div class="newest-collections-container">
+          <div class="latest-furniture-heading">
+            <span class="latest-furniture-heading-text"
+              >NEWEST COLLECTIONS</span
+            >
+            <hr />
+          </div>
+
+          <div class="newest-collections-pagination">
+            <ul class="newest-collections-pagination-list lsn clearfix">
+              <li>ALL</li>
+              <li>CRAIGSON</li>
+              <li>FILLY'S CO.</li>
+              <li>SAYONARA</li>
+              <li>JAMESON</li>
+            </ul>
+          </div>
+
+          <div class="newest-collections-cards clearfix">
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-child fl">
+              <div class="cards-child-info">
+                <div class="cards-child-title">DONATELLA COLLECTION</div>
+                <div class="cards-child-price">$598.00</div>
+                <div class="cards-child-description">
+                  Lorem ipsum dolor sit amet, consectetur adip iscing elit. Nam
+                  eu lobortis justo.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact-container clearfix">
+          <div class="contact-details fl">
+            <div class="contact-heading">
+              <div class="contact-title">CONTACT</div>
+              <div class="contact-subtitle">Get in touch with us</div>
+            </div>
+
+            <div class="our-address">
+              <div class="our-address-title">OUR ADDRESS</div>
+              <div class="our-address-location">
+                251 Washington Avenue Jackson, MS 39208
+              </div>
+            </div>
+
+            <div class="our-phone-numbers">
+              <div class="our-phone-numbers-title">OUR PHONE NUMBERS</div>
+              <div class="phone-numbers">
+                601-933-2116 <br />
+                601-933-2875
+              </div>
+            </div>
+
+            <div class="email-us">
+              <div class="email-us-title">E-MAIL US</div>
+              <div class="emails">
+                601-933-2116 <br />
+                601-933-2875
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form fr">
+            <input class="input-contact" type="text" placeholder="Name" />
+            <input class="input-contact" type="text" placeholder="E-mail" />
+            <input class="input-contact" type="text" placeholder="Subject" />
+            <textarea
+              class="input-contact-textarea"
+              placeholder="How Can We Help?"
+            ></textarea>
+            <div class="contact-button fl clearfix">
+              <div class="stacked-button-background fl">
+                Send <b>Now</b>
+                <div class="stacked-button-foreground fl">
+                  <span
+                    class="stacked-button-foreground-arrow arrow right"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
