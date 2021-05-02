@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 64px 52px;
+  margin: 0px 52px;
 }
 
 .fl {
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  margin: 0 20%;
+  margin: 0 0;
 }
 
 .mb-15 {
@@ -43,9 +43,21 @@ body {
   border: solid #fac012;
 }
 
-.center{
+.center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1366px) {
+  .container {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    margin: 0 20%;
+  }
 }
